@@ -1,0 +1,47 @@
+Part1
+1
+Create a new schema named "SQL_Basics_Practice"
+2
+Create a table in this new schema named "sales" using SQL "Create" command. It should have all the columns as per "Data_Sales" sheet. Make OrderId as primary key
+3
+Insert 5 records into this table using INSERT operation
+4
+SELECT all columns of the table sorted by order date first to last and then by quantity highest to lowest
+5
+Create a new table named "sales_bkp" from the existing "sales" table copying all rows & columns
+6
+Delete the first row from sales_bkp
+7
+Add a new column named "CreatedBy" that has default value of your name
+8
+SELECT ORDERID, CREATEDBY, SALESPERSON and PRICE from sales_bkp.
+9
+Remove "CreatedBy" column from sales_bkp
+10
+Remove sales_bkp table from the schema
+
+
+
+
+Part2
+1
+Create a new table "sales_data" using data table import functionality. Import the "data_sales" sheet into this table.
+2
+Inspect this table "sales_data" especially its columns data types and the SQL that generated this table
+3
+SELECT all columns of this table
+4
+SELECT all columns of this table only for the State of California
+5
+Find the "Minimum", "Maximum", Average and Total values for Price and Quantity
+6
+Count the number of orders occurring for each Product
+7
+Create a "Revenue" column which is product of Price and Quantity
+8
+Calculate the total revenue for each sales person
+9
+Get the list of orders for which revenue is between 1000 and 3000, for the state of TEXAS
+10
+Get the list of Sales Person where total revenue is greater than 250000
+
